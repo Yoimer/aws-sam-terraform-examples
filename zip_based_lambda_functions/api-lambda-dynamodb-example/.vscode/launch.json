@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+          {
+            "name": "Attach to SAM CLI",
+            "type": "python",
+            "request": "attach",
+            "address": "localhost",
+            "port": 9999,
+            "localRoot": "${workspaceRoot}/src",
+            "remoteRoot": "/var/task",
+            "protocol": "inspector",
+            "stopOnEntry": false
+          }
+    ]
+  }
